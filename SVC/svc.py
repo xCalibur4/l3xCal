@@ -22,7 +22,7 @@ def main():
 
 		version = int(arg_list[2])
 		op = load_version(base_filename, vc_filename, version)
-		#print op,
+		print op,
 	else:
 		# Commit file
 
